@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <title> CIÒ CHE SO DI HTML </title>
+    </head>
+    <body>
+	<p> 1/5/8 (24/5/2025) </p>
+      <h1>CIÒ CHE SO DI HTML</h1> </br> </br> </br> </br>
+	<h2 id="sommario"> SOMMARIO </h2> </br>
+	  <ol>
+	    <li> <a href="#sommario"> sommario </a> </li>
+	    <li> <a href="#tag e attributi"> TAG E ATTRIBUTI </a> </li>
+	    <li> <a href="#file html"> FILE HTML </a> </li>
+	      <ul>
+		<li> <a href="#head"> head </a> </li>
+		<li> <a href="#body"> body </a> </li>
+		<li> <a href="#foot"> foot </a> </li>
+	      </ul>
+	    <li> <a href="#testo"> TESTO </a> </li>
+	      <ul>
+		<li> <a href="#ordine"> ordine del documento HTML</a> </li>
+	      </ul>
+	    <li> <a href="#tabella"> TABELLA </a> </li>
+	    <li> <a href="#media"> MEDIA </a> 
+	      <ul>
+		<li> <a href="#immagine"> immagine </a> </li>
+		<li> <a href="#video"> video </a> </li>
+	      </ul>
+	    </li>
+	    <li> <a href="#elenco puntato"> ELENCO PUNTATO </a> </li>
+	    <li> <a href="#modulo"> MODULO </a> </li>
+	    <li></li>
+	  </ol> </br> </br> </br> </br> </br>
+	<h2 id="tag e attributi"></br> </br>TAG E ATTRIBUTI</h2>
+	  </br><p> I tag di HTML sono particelle di testo, circondate da < e > (o < / e >), che hanno la principale funzione di indicare al browser come visualizzare 
+	       il contenuto dettato. Ogni tag ha una funzione di base ben precisa. per molti tag dobbiamo averne uno di apertura e di chiusura, che circondano 
+	       l'elemento a cui vogliamo conferire le caratteristiche desiderate. Alcuni tag sono auto-richiudenti, quindi non hanno bisogno di un "compagno" di 
+	       chiusura. </br>
+	       Gli attributi sono indicazioni aggiuntive che vengono date riguardanti il funzionamento di un determinato tag. vengono aggiunte all'interno del tag di 
+	       apertura, solitamente con la forma <em> nome = "valore" </em>. In alcuni casi è sufficiente solo il nome, che determina semplicememnte che quella
+	       cartteristica è presente.</p>
+	<h2 id="file html"></br> </br> FILE HTML </h2>
+	  </br><p>La primissima riga del documento deve contenere l'indicazione che peremette al browser di riconoscere il linguaggio usato nel documento stesso. 
+	       Questo si indica con <em> < !DOCTYPE html > </em>. Il tag di chiusura non è necessario, poichè quello di apertura si riferisce a tutto il documento.
+	  </br>Dopo aver indicato il tipo di documento, dobbiamo informare il browser dell'inizio dell'effettivo documento HTML. Questo si fa con il tag <em> < html > 
+	       </em>. A differenza del precedente, questo tag necessita di chiusura, che si pone alla fine del documento come ultima riga (<em> < / html > </em>). 
+	       Tutti gli elementi del documento saranno dunque contenuti tra questi due tag. All'interno del tag iniziale si possono aggiungere due informazioni, ossia
+	       la lingua, solitamente inglese (<em> lang = "en" </em>), e la direzione di scrittura (<em> dir = "ltr" </em>). Il codice "ltr" sta per "left to right".
+	  </br>Tra i tag HTML sono contenuti principalmente tre elementi:</p>
+	  <ol>
+	    <li><h4 id="head"> HEAD </h4> </li>
+	      <p>L'elemento "testa" non viene visualizzato sulla pagina. Contiene le informazioni riferite ad una determinata pagina web, tra cui i metadati e il 
+	      titolo. Per inserire la testa è necessario aggiungere l'elemento <em> < head > </em> conn il rispettivo tag di chiusura. Tutte le informazioni sono 
+	      inserite tra questi due tag. Il titolo della scheda del browser viene inserito aggiungendo i tag <em> < title > </em> ed inserendo il titolo tra di essi.
+	      </p>
+	    <li><h4 id="body"> BODY </h4> </li>
+	      <p> Il corpo della pagina è la parte principale del documento, quella che contiene tutti gli elementi che verrano visualizzati sulla pagina. Viene 
+	      determinato dai tag <em> < body > </em>. </p>
+	    <li><h4 id="foot"> FOOT </h4> </li>
+	      <p> Il piede è semplicemente la parte finale della pagina, quella dove dio solito ci sono i conatti dei creatori, i collegamenti relativi alla pagina e 
+	      simili. Viene indicato dal tag <em> < foot > </em> </p>
+	  </ol>
+	<h2 id="testo"></br> </br>TESTO</h2>
+	  </br><p>Il testo è la parte del documento che verrà visualizzata sul browser. Per dare ad HTML l'ordine di visualizzare il testo, dobbiamo racchiuderlo entro
+	       tag specifici. Nessuno di questi tag è auto-richiudente, necessita sempre di un antagonista.
+	       Le tipologie di testo principali sono due:
+	  <ol>
+	    <li>paragrafo (<em> < p > </em>) </li>
+	    <li>titolo (da <em> < h1 > </em> a <em> < h6 > </em>)</li>
+	  </ol>
+	  </br>Il testo del paragrafo è il testo normale, quello con cui si scrive la parte principale della pagina. È racchiuso tra i tag <em> < p > </em>. 
+	  </br>I tag <em> < hX > </em> (dove X rappresenta un numero dall'1 al 6) racchiudono un titolo. Maggiore è il numero, maggiore comparirà il testo del titolo.
+	  </br></br> Esistono due tag che ci aiutano a modificare l'aspetto del testo: <em> < strong > </em> ed <em> < em > </em> ( <em> strong </em> ed <em> emphasys 
+	       </em> ). Il primo applica il grassetto al testo circondato, l'altro invece inclina il testo, lo enfatizza. Questi due tag possono essere usati anche in
+	       combinazione, quindi far ottenere un testo in grassetto ed enfatizzato allo steso tempo.</p>
+	  <h3 id="ordine">ORDINE DEL DOCUMENTO HTML</h3>
+	    <p>Quando un documento inizia ad avere tanti elementi, potrebbe essere molto difficile interpretare i tag, il loro livello e cosa ricomprende ciascuno. 
+	    per evitare confusione, si possono utilizzare gli spazi, il tasto <em> TAB </em> e il tasto <em> INVIO </em> per creare nuove righe, rientri e spaziature 
+	    di vario genere. Per questo, i comandi citati non hanno influenza sul testo (ad eccezione dello sapzio, che indipendentememente dal numero di click verrà 
+	    sempre visualizzato come singolo). Se si vuole andare a capo, bisogna utilizzare il tag <em> < / br > </em>. È un tag auto-richiudente, può essere 
+	    posizionato in qualsiasi punto del testo.
+	<h2 id="tabella"></br> </br>TABELLA</h2>
+	  </br>
+	  <table>
+	    <thead>
+	      <tr>
+		<th>
+		  <td> TAG </td>
+		</th>
+		<th>
+		  <td> FUNZIONE E SIGNIFICATO </td>
+		</th>
+		<th>
+		  <td> LIVELLO </td>
+		</th>
+	      </tr>
+	      <tr>
+		<th>
+		  <td> ---------------------------------------- </td>
+		</th>
+		<th>
+		  <td> -------------------------------------------------------------------------------- </td>
+		</th>
+		<th>
+		  <td> ---------------------------------------- </td>
+		</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+		<th>
+		  <td> < table > </td>
+		</th>
+		<th>
+		  <td> contiene tutti gli elementi della tabella </td>
+		</th>
+		<th>
+		  <td> 0 </td>
+		</th>
+	      </tr>
+	      <tr>
+		<th>
+		  <td> < thead > </td>
+		</th>
+		<th>
+		  <td> parte iniziale della tabella, uguale alle altre, serve per </br> facilitare l'abbelimento successivo </td>
+		</th>
+		<th>
+		  <td> 1 </td>
+		</th>
+	      </tr>
+	      <tr>
+		<th>
+		  <td> < tbody > </td>
+		</th>
+		<th>
+		  <td> parte principale della tabella, uguale alle altre, serve per </br> facilitare l'abbelimento successivo </td>
+		</th>
+		<th>
+		  <td> 1 </td>
+		</th>
+	      </tr>
+	      <tr>
+		<th>
+		  <td> < tfoot > </td>
+		</th>
+		<th>
+		  <td> parte finale della tabella, uguale alle altre, serve per </br> facilitare l'abbelimento successivo </td>
+		</th>
+		<th>
+		  <td> 1 </td>
+		</th>
+	      </tr>
+	      <tr>
+		<th>
+		  <td> < tr > </td>
+		</th>
+		<th>
+		  <td> indica una riga nella tabella </td>
+		</th>
+		<th>
+		  <td> 2 </td>
+		</th>
+	      </tr>
+	      <tr>
+		<th>
+		  <td> < th > </td>
+		</th>
+		<th>
+		  <td> indica una cella nella riga </td>
+		</th>
+		<th>
+		  <td> 3 </td>
+		</th>
+	      </tr>
+	      <tr>
+		<th>
+		  <td> < td > </td>
+		</th>
+		<th>
+		  <td> indica il testo (un dato) nella cella </td>
+		</th>
+		<th>
+		  <td> 4 </td>
+		</th>
+	      </tr>
+	    </tbody>
+	  </table>
+	<h2 id="media"></br> </br>MEDIA</h2>
+	  <h3 id="immagine"> IMMAGINE </h3>
+	  <h3 id="video"> VIDEO </h3>
+	<h2 id="elenco puntato"></br> </br>ELENCO PUNTATO</h2>
+	  <p></br> L'elenco puntato è una forma ordinata di inserire i dati in una pagina, ne esistono due tipi:
+	    <ol>
+	      <li> non numerato (<em> < ul > </em>) </li>
+	      <li> numerato (<em> < ol > </em>) </li>
+	    </ol>
+	  l'elenco non numerato verrà visualizzato con le voci precedute da punti (o cerchietti), quello numerato invece avrà i numeri che cominceranno dall'uno.
+	  Indipendentemente dal tipo di elenco, ciascun elemento si circonda con i tag <em> < li > </em>.</p>
+	<h2 id="modulo"></br></br> MODULO</h2>
+	  </br><p> Un modulo è utilizzato per raccogliere dei dati che poi verrannno elaborati. Per creare un modulo si utilizzano i tag <em> < form > </em>, che circondano tutti gli elementi contenuti all'interno di esso. 
+	  </br> Quando qualcuno deve inserire dei dati, dobbiamo comunicargli che dato si vuole venga inserito. Questo si fa aggiungendo dei tag <em> < label > </em>, entro i quali si scrive quello che vogliamo comunicare. all'interno del primo tag si aggiunge anche l'attributo <em> for= </em> con il nome ID del campo a cui si riferisce. 
+
+	  </br> </br> Per aggiungere un campo compilabile, aggiungiamo il tag auto-richiudente <em> < input > </em>, che dovrà contenere gli attributi, a seconda di come si vuole che venga compilato. 
+	  </br> Per le caselle di testo è necessario specificare la tipologia, cioè se erranno inseriti numeri o un testo. questo verrà specificato nell'attributo <em> input= </em>, che nel primo caso verrà completato con <em> "number" </em>, nel secondo invece con <em> "text" </em>. In entrambi i casi si possono impostare dei limiti, sempre con gli attributi. Nel caso dei numeri verranno impostati un valore minimo e massimo, <em> min= </em> e <em> max= </em> (indicando la cifra), per il testo invece si specifica la lunghezza minima e massima <em> minlength= </em> e <em> maxlength= </em> (indicando il numero di caratteri).
+	  </br> 
+
+
+</p>
+
+
+
+
+
+
+
+<!-- required
+type
+name
+id------for
+value
+min/max
+minlenght/maxl. -->
+
+
+	<h2 id="sommario"></br> SOMMARIO</br></h2>
+    </body>
+  </html>
